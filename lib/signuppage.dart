@@ -77,3 +77,5 @@ class _SignupPageState extends State<SignupPage> {
     );
   }
 }
+
+//this is the signup page where the button for signup is working but routing is not working
