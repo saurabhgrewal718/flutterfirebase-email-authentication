@@ -55,7 +55,7 @@ class _SignupPageState extends State<SignupPage> {
                     Navigator.of(context).pushReplacementNamed('/homepage');
                   })
                   .catchError((e){
-                    print(e);
+                    print("the error is: " + e);
                   });
                 },
               ),              
@@ -67,7 +67,7 @@ class _SignupPageState extends State<SignupPage> {
                 textColor: Colors.white,
                 elevation: 7,
                 onPressed: (){
-                  Navigator.of(context).pushNamed('/landingpage');
+                  Navigator.of(context).pushReplacementNamed('/landingpage');
                 },
               ),
             ],

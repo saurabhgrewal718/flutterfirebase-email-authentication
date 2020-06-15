@@ -13,7 +13,7 @@ class UserManagement{
       Navigator.of(context).pop();
       Navigator.of(context).pushReplacementNamed('/homepage');
     }).catchError((e){
-    
+      print(e);
     });
   }
 }
